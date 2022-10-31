@@ -22,9 +22,6 @@
     content:"\f1c9";
     font: var(--fa-font-solid);
 }
-.noshit-envelope:before{
-    content:"\E904"
-}
 .twitter:before{
     content: "\f099";
     font: var(--fa-font-brands);
