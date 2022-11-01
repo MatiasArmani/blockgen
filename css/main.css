@@ -3130,7 +3130,8 @@ svg{
     .team__pull-right{
         -webkit-box-ordinal-group:2;
         -ms-flex-order:1;
-        order:1
+        order:1;
+        margin-bottom: -60px;
     }
     .team__container{
         margin-top:5%
