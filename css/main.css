@@ -38,6 +38,9 @@
     content: "\f1ab";
     font: var(--fa-font-solid);
 }
+.links{
+    color: #77d5ff;
+}
 html{
     line-height:1;
     -ms-text-size-adjust:100%;
@@ -730,7 +733,7 @@ button,input[type=button],input[type=file]::-webkit-file-upload-button,input[typ
 }
 .btn-blue-border:hover.btn-blue-border:before{
     opacity:1;
-    background-color:#3f51b5;
+    background-color:#5c10af;
     -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
     -webkit-transition-timing-function:cubic-bezier(.2,1,.3,1);
