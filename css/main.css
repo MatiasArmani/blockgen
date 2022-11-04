@@ -577,7 +577,8 @@ main{
     font-size:22px;
     font-size:1.3rem;
     line-height:1.6;
-    margin-bottom:5.4rem
+    margin-bottom:5.4rem;
+    text-align: justify;
 }
 .typography__paragraph-error{
     color:#77d5ff;
@@ -2421,7 +2422,7 @@ svg{
         left:0;
         right:0;
         bottom:0;
-        height:15vh!important;
+        height:17vh!important;
         background-color:#000;
         color:#fff
     }
