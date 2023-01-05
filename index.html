@@ -55,7 +55,7 @@
                         <div class="col-6">
                             <div class="logo header__logo">
                                 <div class="logo__container logo__container--going-out">
-                                    <div class="logos__main-container">
+                                    <div class="logos__main-container" style="margin-bottom: 175px;">
                                     	<a class="logos__blockgen" href="https://blockgen.dev/"> 
                                     		<img src="img/logo.svg" alt="blockgen logo" class="img-responsive">
                                         </a>
@@ -91,7 +91,7 @@
         <div id="fullpage">
             <section aria-label="Introduction" class="noshit-section intro" data-color="#ece8e1" data-envelope-color="#fff" data-envelope-hover="blue" data-favicon="favicon.png">
                 <div class="flex-centered-content">
-                    <div class="container">
+                    <div class="container" style="margin-bottom: 150px;">
                         <div class="intro__content">
                             <div class="intro__title">
                                 <div class="intro__title-top" translate="no">
@@ -102,13 +102,13 @@
                                 </div>
                             </div>
                             <div class="intro__btn-container" style="padding-bottom:25px;">
-                                <button id="sendTelegram" class="btn btn-blue-border" style="padding:25px;margin-right: 15px;">
+                                <button id="sendTelegram" class="btn btn-blue-border" style="padding:25px;margin-right: 15px;margin-bottom: 15px;">
                                     <span>Telegram</span>
                                 </button>
-                                <button id="sendEmailFast" class="btn btn-blue-border" style="padding:25px;margin-right: 15px;">
+                                <button id="sendEmailFast" class="btn btn-blue-border" style="padding:25px;margin-right: 15px;margin-bottom: 15px;">
                                     <span>Email</span>
                                 </button>
-                                <button id="instagram" class="btn btn-blue-border" style="padding:25px;">
+                                <button id="instagram" class="btn btn-blue-border" style="padding:25px;margin-bottom: 15px;">
                                     <span>Instagram</span>
                                 </button>
                             </div>
@@ -422,26 +422,26 @@
                                                     e.preventDefault();
                                                     const name = document.getElementById('name').value;
                                                     const message = document.getElementById('message').value;
-                                                    window.location.href=`mailto:contact@blockgen.dev?subject=blockgen%20Contact&body=${message}%0A%0A${name}`;
+                                                    window.open(`mailto:contact@blockgen.dev?subject=blockgen%20Contact&body=${message}%0A%0A${name}`, '_blank');
                                                     window.location.href=`thanks`;
                                                 });
 
                                                 const btnSendFast = document.getElementById('sendEmailFast');
                                                 btnSendFast.addEventListener('click', function(e){
                                                     e.preventDefault();
-                                                    window.location.href=`mailto:contact@blockgen.dev?subject=blockgen%20Contact`;
+                                                    window.open('mailto:contact@blockgen.dev?subject=blockgen%20Contact', '_blank');
                                                 });
 
                                                 const btnTelegram = document.getElementById('sendTelegram');
                                                 btnTelegram.addEventListener('click', function(e){
                                                     e.preventDefault();
-                                                    window.location.href=`https://t.me/blockgenTG`;
+                                                    window.open('https://t.me/blockgenTG', '_blank');
                                                 });
 
                                                 const btnInstagram = document.getElementById('instagram');
                                                 btnInstagram.addEventListener('click', function(e){
                                                     e.preventDefault();
-                                                    window.location.href=`https://www.instagram.com/blockgen_/`;
+                                                    window.open('https://www.instagram.com/blockgen_/', '_blank');
                                                 });
                                             </script>
                                         </div>
