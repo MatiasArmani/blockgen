@@ -267,6 +267,7 @@ canvas{
 }
 .container{
     width:58%;
+    height: 60%;
     margin-left:21%;
     margin-right:21%
 }
@@ -986,7 +987,7 @@ button,input[type=button],input[type=file]::-webkit-file-upload-button,input[typ
     margin-top:1%
 }
 .intro__btn-container{
-    margin-top:6rem
+    margin-top:3rem
 }
 .stand-out__title{
     margin-top:67%
